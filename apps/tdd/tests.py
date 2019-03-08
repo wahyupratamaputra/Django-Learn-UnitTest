@@ -14,9 +14,15 @@ class HomePageTest(TestCase):
     #     self.assertEqual(1+1, 3)
 
     def test_homepage_return_correct_html(self):
-        request = HttpRequest
-        response = index(request)
+        response = self.client.get('/')
+
         html = response.content.decode('utf8')
         self.assertTrue(html.startswith('<!DOCTYPE html>'))
         self.assertIn('<title>To-do list</title>', html)
         self.assertTrue(html.endswith('</html>'))
+
+        self.assertTemplateUsed(response, 'tdd/index.html')
+
+    def test_uses_index_template(self):
+        response = self.client.get('/')
+        self.assertTemplateUsed(response, 'tdd/index.html')
