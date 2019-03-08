@@ -271,3 +271,19 @@ Can't find symbol 'GetGraphicsResetStatus'.
 1552030711816	Marionette	WARN	TLS certificate errors will be ignored for this session
 1552030713349	Marionette	INFO	Stopped listening on port 50620
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1552031291981	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3z/md0c2xbj60d1gkwcddl9n1x00000gn/T/rust_mozprofile.L6731H1hQhFT"
+1552031292770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552031292770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1552031294850	Marionette	INFO	Listening on port 49322
+1552031294861	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552031296490	Marionette	INFO	Stopped listening on port 49322
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1552031919983	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3z/md0c2xbj60d1gkwcddl9n1x00000gn/T/rust_mozprofile.yAoxovuNNqgJ"
+1552031920571	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552031920571	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1552031922319	Marionette	INFO	Listening on port 49408
+1552031922369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552031923959	Marionette	INFO	Stopped listening on port 49408
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
